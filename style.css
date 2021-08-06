@@ -1,0 +1,31 @@
+ /* google fonts */
+
+ 
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top-banner{
+   background-color: #2D25A0;
+   color: white;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding-top: 100px;
+}
+.tournament-name{
+    font-size: 25px;
+}
+.tournament-name a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+.banner-image img{
+    width: 500px;
+    height: 400px;
+}
