@@ -121,6 +121,7 @@ footer{
 
     }
 }
+/* -------last part media query---- */
 @media  screen and  (max-width:680px){
     .final-match{
         flex-direction: column;
