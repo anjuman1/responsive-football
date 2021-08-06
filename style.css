@@ -6,6 +6,8 @@ body{
     margin: 0;
     padding: 0;
 }
+
+
 /*----------- top banner part------------- */
 .top-banner{
    background-color: #2D25A0;
@@ -26,6 +28,10 @@ body{
     background-color: #E02C6D;
     padding: 3px 7px;
     border-radius: 5px;
+}
+.tournament-name a:hover{
+    background-color: seagreen;
+    transition: background-color 1s;
 }
 .banner-image img{
     width: 500px;
@@ -95,7 +101,39 @@ footer{
 #copyright{
     font-size: 10px;
 }
+ /* ----------media queries----------- */
+ 
+ /* ---------top banner media queries------- */
+@media screen and (max-width:680px) {
+    .top-banner{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .banner-image img{
+        width: 100%;
+    }
+}
 
+/*--------- players media query-------- */
+@media  screen and  (max-width:680px) {
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+@media  screen and  (max-width:680px){
+    .final-match{
+        flex-direction: column;
+        margin-left: 20px;
+        padding-left: 10px;
+        align-items: center;
+       
+    }
+    .result-info img{
+        width: auto;
+        
+    }
+}
 
 
 
