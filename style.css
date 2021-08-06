@@ -38,6 +38,7 @@ body{
     grid-row-gap: 30px;
     grid-column-gap: 5px;
     margin-left:60px;
+    margin-bottom: 40px;
 }
 .player{
     width: 240px;
@@ -57,6 +58,26 @@ body{
 }
 p{
     color: grey;
+}
+
+/* ---------final match part -------------*/
+.final-match {
+    display: flex;
+}
+.final-match-title{
+    color: tomato;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.result-info{
+    border: 1px solid whitesmoke;
+    box-shadow:  5px 5px 5px 3px whitesmoke ;
+    width: 400px;
+    height: 420px;
+    margin-left: 50px;
+}
+.result-info img{
+    width: 100%;
 }
 
 /* footer styles */
